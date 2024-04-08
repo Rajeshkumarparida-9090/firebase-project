@@ -28,6 +28,28 @@
   color: #61dafb;
 }
 
+/*================== custom css start ============================*/
+.listedCard {
+  display: grid;
+  grid-gap: 20px;
+  /* grid-auto-flow: column; */
+  grid-template-columns: repeat(4, 2fr);
+  grid-auto-rows: auto;
+}
+.cardImg{
+  background-size: contain !important;
+  margin: 10px;
+
+
+}
+.imagecard {
+  box-shadow: 0px 1px 5px 3px #00000057 !important;
+  height: 100%;
+  width: 100%;
+  max-width: 100%;
+}
+/*================== custom css end ============================*/
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
